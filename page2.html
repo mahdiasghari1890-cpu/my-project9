@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color: cornflowerblue;
+        }
+
+        .form{
+            width: 400px; 
+            height: 700px; 
+            background-color: white;
+            border: 3px solid black; 
+            margin: auto; 
+            border-radius: 10px; 
+        }
+        
+        button{
+        width: 100px; 
+        height: 50px; 
+        background-color: blue; 
+        font-size: x-large; 
+        font-family: lalezar; 
+        font-weight: bold; 
+        border-radius: 10px; 
+        margin-left: 150px; 
+        margin-top: 50px;
+        }
+
+        @media(max-width:768px){
+            .form{
+                width: 350px;
+                flex-direction: column;
+            }
+
+            button{
+                margin-left: 130px;
+            }
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحه دو</title>
+</head>
+<body>
+    <form class="form" action="c:\Users\Lenovo\Desktop\سایت نمونه بدنسازی\page2.html" method="get">
+        <p style="font-size: x-large; font-family: lalezar; font-weight: bold; text-align: center;">تکمیل اطلاعات و ثبت سفارش</p>
+        <div style="text-align: center; margin-top: 50px;">
+            <label style="font-size: x-large; font-family: lalezar; font-weight: bold;" for="name">نام</label><br>
+            <input style="width: 300px; height: 40px; border: 2px solid black;  border-radius: 10px; background-color: gray;" type="text">
+        </div>
+
+
+        <div style="text-align: center; margin-top: 50px;">
+            <label style="font-size: x-large; font-family: lalezar; font-weight: bold;" for="family">نام خوانوادگی</label><br>
+            <input style="width: 300px; height: 40px; border: 2px solid black;  border-radius: 10px; background-color: gray;" type="text">
+        </div>
+
+
+        <div style="text-align: center; margin-top: 50px;">
+            <label style="font-size: x-large; font-family: lalezar; font-weight: bold;" for="phone">تلفن</label><br>
+            <input style="width: 300px; height: 40px; border: 2px solid black;  border-radius: 10px; background-color: gray;" type="text">
+        </div>
+
+        <div style="text-align: center; margin-top: 50px;">
+            <label style="font-size: x-large; font-family: lalezar; font-weight: bold;" for="email">ایمیل</label><br>
+            <input style="width: 300px; height: 40px; border: 2px solid black;  border-radius: 10px; background-color: gray;" type="text">
+        </div>
+               <button>ارسال</button>
+        </form>
+</body>
+</html>
